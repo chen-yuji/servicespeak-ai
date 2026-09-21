@@ -48,14 +48,17 @@ This design treats AI literacy as a matter of **critical judgement**, not merely
 
 ## Current Prototype
 
-The current 7-day pilot is a self-contained web application that runs in a modern browser and supports:
+The current 7-day pilot is a self-contained web application that runs in a modern browser. It can also be used on a shared school computer or tablet: each learner enters the same teacher-assigned anonymous pilot code on each visit, and the browser keeps that learner's progress separate from other learners on the device.
+
+It supports:
 
 - English / Traditional Chinese interface
 - randomised answer positions
 - immediate correct / incorrect sound feedback
 - daily unlocking and completion tracking
-- student nickname and pilot ID
-- local progress storage
+- student nickname and anonymous pilot code
+- shared-device multi-learner mode with separate local records for each pilot code
+- local progress storage with no server-side account required
 - personalised review summaries
 - exportable learning records
 
